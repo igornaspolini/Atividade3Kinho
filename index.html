@@ -22,27 +22,24 @@
             <ul>
                 <li><a href="#info_titulo">Sobre</a></li>
                 <li><a href="#article_oculos">Óculos</a></li>
-                <li><a href="/">Joalheria</a></li>
-                <li><a href="#Contato_Redessociais">Contato</a></li>
+                <li><a href="#article_relogios">Relógios</a></li>
+                <li><a href="#article_acessorios">Acessórios</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <article class="article_carrossel" id="article_img_carrossel">
             <!-- Slide images -->
-            <img class="img_carrossel" src alt="Imagem banner" id="img_moldura">
+            <img class="img_carrossel" src alt="Imagem banner" title="Imagens do banner" id="img_moldura">
             <section>
                 <button id="btnVoltar" class="botao"> &lt; </button>
                 <button id="btnAvancar" class="botao"> &gt;</button>
             </section>
         </article>
-        
-        <article class="container_info_loja" id="info_titulo">
-            <section class="container_info_loja_titulo">
-                <p>Sobre nós</p>
-            </section>
+        <p id="info_titulo">Sobre nós</p>
+        <article class="container_info_loja">
             <section class="container_info_loja_texto">
-                <img src="img/info_missao.png" id="img_info_missao" class="img_icone">    
+                <img src="img/info_missao.png" id="img_info_missao" class="img_icone" alt="Imagem Icone missão" title="Missão">    
                 <p id="info_missao_missao">Missão:</p>
                 <p class="info_desc_desc" id="info_desc1">Proporcionar aos clientes uma visão
                                                           clara e saudável,oferecendo produtos 
@@ -51,19 +48,20 @@
                                                           promovendo o bem-estar visual e a satisfação.</p>
             </section>
             <section class="container_info_loja_texto">
-                <img src="img/info_valores.png" id="img_info_valores" class="img_icone">
-                    <p id="info_visao_visao">Valores:</p>
-                    <ul id="info_ul" >
+                <img src="img/info_valores.png" id="img_info_valores" class="img_icone" alt="Imagem icone Valores" title="Valores">
+                    <p class="info_visao_visao">Valores:</p>
+                    <ul class="info_ul" >
                         <li>Integridade: Agir com honestidade e transparência.</li>
                         <li>Qualidade: Compromisso com produtos e serviços excepcionais.</li>
                         <li>Saúde Visual: Priorizar a saúde ocular e oferecer soluções para promover a visão saudável.</li>
                         <li>Inovação: Buscar constantemente novas tecnologias e tendências.</li>
                     </ul>
             </section>      
-            <section class="container_info_loja_texto"><img src="img/info_visao.png" id="img" class="img_icone">
+            <section class="container_info_loja_texto">
+                    <img src="img/info_visao.png" id="img" class="img_icone" alt="Imagem icone Visão" title="Icone visão">
                 
                     <p class="info_sobre" id="info_sobre_visao">
-                        <p id="info_visao_visao">Visão:</p>
+                        <p class="info_visao_visao">Visão:</p>
                     <p class="info_desc_desc" id="info_desc3">Ser reconhecida como a principal escolha em cuidados
                         visuais,
                         destacando-se pela inovação, excelência em produtos e serviços, e sendo a referência em saúde
@@ -75,9 +73,9 @@
             </section>
 
         </article>
-        <article class="container_info_loja">
-            <img src="img/article_loja.jpg" title="LOJA" alt="imagem da loja" id="img_loja">
-            <p id="article_loja_desc">Desde 1980 joalheria e ótica Vitoreti atua no ramo sempre 
+        <article class="container_info_loja_fisica">
+            <img src="img/article_loja.jpg" title="LOJA" alt="imagem da loja" id="img_loja" title="Loja física">
+            <p class="article_loja_desc">Desde 1980 joalheria e ótica Vitoreti atua no ramo sempre 
                 inovando seus produtos, buscando o que há de melhor em tecnologia 
                 na área óptica. Possui laboratório próprio para produção e montagem 
                 de lentes oftálmicas, cuidando para que os serviços sejam feitos com 
@@ -91,88 +89,86 @@
 
         <article id="article_oculos">
             <section class="section_img_all">
-                <img src="img/section_oculos_1.png" id="oculos_1">
-                <p id="article_descricao_produto">Óculos de Sol
+                <img src="img/section_oculos_1.png" id="oculos_1" alt="Imagem óculos" title="óculos de sol">
+                <p class="article_descricao_produto">Óculos de Sol
                     Armani Exchange 
-                <p id="article_preco_produto">$109.39</p>
+                <p class="article_preco_produto">$109.39</p>
                 
             </section>
             <section class="section_img_all">
-                <img src="img/section_oculos_2.png" id="oculos_2" ></a>
+                <img src="img/section_oculos_2.png" id="oculos_2" alt="Imagem óculos" title="óculos de sol"></a>
                 
-                    <p id="article_descricao_produto">Óculos de Sol
+                    <p class="article_descricao_produto">Óculos de Sol
                         Prada Linea Rossa</p>
                 
                 
-                    <p id="article_preco_produto">$245.19</p>
+                    <p class="article_preco_produto">$245.19</p>
                 
             </section>
             <section class="section_img_all">
-                <img src="img/section_oculos_3.png" id="oculos_3" >
+                <img src="img/section_oculos_3.png" id="oculos_3" alt="Imagem óculos" title="óculos de sol">
                 
-                    <p id="article_descricao_produto">Óculos de Sol
+                    <p class="article_descricao_produto">Óculos de Sol
                         Emilio Pucci</p>
-                
-                
-                    <p id="article_preco_produto">$225.05</p>
+                    <p class="article_preco_produto">$225.05</p>
                 
             </section>
         </article>
         <article id="article_relogios">
             <section class="section_img_all">
-                <img src="img/section_relogio_1.png" id="relogio_1" >
+                <img src="img/section_relogio_1.png" id="relogio_1" alt="Imagem óculos" title="óculos de sol">
                 
-                    <p id="article_descricao_produto">Relógio Armani Exchange Dourado Masculino</p>
-                
-                
-                    <p id="article_preco_produto">$412.05</p>
-                
-            </section>
-            <section class="section_img_all">
-                <img src="img/section_relogio_2.png" id="relogio_2" >
-                
-                    <p id="article_descricao_produto">Calvin Klein Chronograph</p>
+                    <p class="article_descricao_produto">Relógio Armani Exchange Dourado Masculino</p>
                 
                 
-                    <p id="article_preco_produto">$545.20</p>
+                    <p class="article_preco_produto">$412.05</p>
                 
             </section>
             <section class="section_img_all">
-                <img src="img/section_relogio_3.png" id="relogio_2" >
+                <img src="img/section_relogio_2.png" id="relogio_2" alt="Imagem Relógio" title="óculos de sol">
                 
-                    <p id="article_descricao_produto">Calvin Klein Chronograph</p>
+                    <p class="article_descricao_produto">Calvin Klein Chronograph</p>
                 
                 
-                    <p id="article_preco_produto">$545.20</p>
+                    <p class="article_preco_produto">$545.20</p>
+                
+            </section>
+            <section class="section_img_all">
+                <img src="img/section_relogio_3.png" id="relogio_3" alt="Imagem Relógio" title="óculos de sol">
+                
+                    <p class="article_descricao_produto">Calvin Klein Chronograph</p>
+                
+                
+                    <p class="article_preco_produto">$545.20</p>
                 
             </section>            
         </article>
         <article id="article_acessorios">
             <section class="section_img_all">
-                <img src="img/section_caneta_1.png" id="caneta_1" >
+                <img src="img/section_caneta_1.png" id="caneta_1" alt="Imagem Caneta" title="Caneta">
                 
-                    <p id="article_descricao_produto">Meisterstück Rose Gold-Coated Ballpoint Pen</p>
-                
-                
-                    <p id="article_preco_produto">$482.75</p>
-                
-            </section>
-            <section class="section_img_all">
-                <img src="img/section_carteira_1.png" id="carteira_1" >
-                
-                    <p id="article_descricao_produto">Carteira Masculina Mitty Em Couro Legítimo</p>
+                    <p class="article_descricao_produto">Meisterstück Rose Gold-Coated Ballpoint Pen</p>
                 
                 
-                    <p id="article_preco_produto">$482.75</p>
+                    <p class="article_preco_produto">$482.75</p>
                 
             </section>
             <section class="section_img_all">
-                <img src="img/section_cinto_1.png" id="cinto_1" >
+                <img src="img/section_carteira_1.png" id="carteira_1" alt="Imagem Carteira" title="Carteira Mitty">
                 
-                    <p id="article_descricao_produto">Cinto Mitty Em Couro Legítimo</p>
+                    <p class="article_descricao_produto">Carteira Masculina Mitty Em Couro Legítimo</p>
                 
                 
-                    <p id="article_preco_produto">$42.17</p>
+                    <p class="article_preco_produto">$482.75</p>
+                
+            </section>
+            <section class="section_img_all">
+                <img src="img/section_cinto_1.png" id="cinto_1" alt="Imagem Cinto" title="Cinto Mitty">
+                
+                    <p class="article_descricao_produto">Cinto Mitty Em Couro Legítimo</p>
+                
+                
+                    <p class="article_preco_produto">$42.17</p>
                 
             </section>
         </article>
@@ -183,11 +179,11 @@
             <section>
                 <ul>
                     <li><a href="https://www.instagram.com/vitoretioficial/" target="_blank">
-                        <img src="img/footer_icon_instagram.png" class="img_icone"><p>@vitoretioficial</p></a></li>
+                        <img src="img/footer_icon_instagram.png" class="img_icone" alt="Imagem instagram" title="Instagram vitoreti"><p>@vitoretioficial</p></a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=554899256721" target="_blank">
-                        <img src="img/footer_icon_whatsapp.png" class="img_icone"><p>+55 48 9925-6721</p></a></li>
+                        <img src="img/footer_icon_whatsapp.png" class="img_icone" alt="Imagem Whatsappstagram" title="Whatsapp vitoreti"><p>+55 48 9925-6721</p></a></li>
                     <li><a href="https://www.facebook.com/JoalheriaEOticaVitoreti/" target="_blank">
-                        <img src="img/footer_icon_facebook.png" class="img_icone"><p>Vitoreti Ótica e Joalheria</p></a></li>
+                        <img src="img/footer_icon_facebook.png" class="img_icone" alt="Imagem Facebook" title="Facebook vitoreti"><p>Vitoreti Ótica e Joalheria</p></a></li>
                 </ul>
             </section>
         </article>
