@@ -308,25 +308,42 @@ footer li{
 }
 @media(max-width: 555px)
 {
+    *{
+        margin-right: 7px;
+    }
     #info_titulo{
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
     .article_loja_desc{
         margin-bottom: 50px;
     } 
+    .info_desc_desc{
+        justify-content: center;
+
+        margin-left: 15px;
+        width: 80%;
+    }
+    .info_ul{
+        justify-content: center;
+        margin: 38px;
+    }
     .container_info_loja{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 1250px;
+        margin-left: 22px;
+
     }
     .container_info_loja_fisica{
         margin-top: 500px;
         margin-bottom: 150px;
         flex-direction: column;
+        
     }  
     .section_img_all{
         width: 70%;
@@ -337,9 +354,13 @@ footer li{
     
     nav{
         height: 190px;
+        width: 473px;
     }
     nav ul{
         flex-direction: column;
         align-items: end;
+    }
+    .article_carrossel{
+        margin-left: 22px;
     }
 }
